@@ -40,7 +40,7 @@ if ($register == false)
 		$h=fopen("newgojek.txt","a");
 		fwrite($h,json_encode(array('token' => $verif, 'voc' => 'gofood gak ada'))."\n");
 		fclose($h); 
-                echo "\e[!] Trying to redeem Reff : G-WDMK8ZH !\n";
+                echo "\e[!] Trying to redeem Reff : G-GKYDBY6R !\n";
                 sleep(3);
             $claim = reff($verif);
             if ($claim == false){
